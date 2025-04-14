@@ -21,6 +21,7 @@ exports.up = async function(knex) {
     .createTable('step_ingredients', table => {
         table.increments()
     })
+    .createTable()
 };
 
 /**
